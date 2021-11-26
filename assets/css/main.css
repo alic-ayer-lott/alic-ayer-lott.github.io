@@ -171,21 +171,26 @@ input, select, textarea {
 	h2 {
 		font-size: 1.75em;
 		line-height: 1.5em;
-		margin: 1em 0 0 0;
 	}
 
 	h3 {
 		font-size: 1.3em;
 		line-height: 1.5em;
+		margin-bottom: 1.5em;
+	}
+
+	.tech-stack{
+		padding: 0 0 3em 0;
 	}
 
 	h4 {
 		font-size: 0.9em;
 		line-height: 1.5em;
+		padding-bottom: 3em;
 	}
 
 	h5 {
-		font-size: 0.8em;
+		font-size: 0.9em;
 		line-height: 1.5em;
 	}
 
@@ -262,7 +267,7 @@ input, select, textarea {
 	.container {
 		margin: 0 auto;
 		max-width: calc(100% - 4em);
-		width: 35em;
+		width: 40em;
 	}
 
 		.container.xsmall {
@@ -2280,6 +2285,11 @@ input, select, textarea {
 			.image.fit img {
 				width: 100%;
 			}
+		
+			.thumb {
+				max-width: 15em;
+				max-height: 15em;
+			}
 
 /* List */
 
@@ -2320,6 +2330,10 @@ input, select, textarea {
 
 	dl {
 		margin: 0 0 2em 0;
+	}
+
+	.resume{
+		list-style-type: none;
 	}
 
 /* Icons */
@@ -2689,7 +2703,7 @@ input, select, textarea {
 		button.primary,
 		.button.primary {
 			background-color: #f4efe6;
-			border: solid;
+			border: none;
 			box-shadow: none;
 			color: #3a493f !important;
 		}
@@ -2707,7 +2721,7 @@ input, select, textarea {
 			input[type="button"].primary:active,
 			button.primary:active,
 			.button.primary:active {
-				background-color: #7aca9a;
+				background-color: #8e9d95;
 			}
 
 			input[type="submit"].primary.icon:before,
@@ -2769,7 +2783,7 @@ input, select, textarea {
 		}
 
 		.main .container {
-			padding: 5em 2.5em 8em 2.5em ;
+			padding: 3em 2.5em 8em 2.5em ;
 			background: #f4efe6;
 			box-shadow: inset 0 1px 0 0 #dddddd;
 		}
@@ -2846,6 +2860,7 @@ input, select, textarea {
 			#header header h3 {
 				font-family: "Raleway";
 				color: #e5e3da;
+				margin: 0em;
 			}
 
 			#header header a {
@@ -2877,7 +2892,7 @@ input, select, textarea {
 			background: #f4efe6;
 			bottom: 0;
 			left: 50%;
-			margin-left: -17.5em;
+			margin-left: -20em;
 			padding: 2.5em;
 			position: absolute;
 		}
