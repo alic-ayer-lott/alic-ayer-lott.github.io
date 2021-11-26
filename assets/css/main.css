@@ -2916,7 +2916,7 @@ input, select, textarea {
 
 		#footer .container {
 			padding: 5em 2.5em 3em 2.5em ;
-			background: rgba(255, 255, 255, 0.95);
+			background: #f4efe6;
 			box-shadow: inset 0 1px 0 0 #dddddd;
 		}
 
@@ -2958,6 +2958,10 @@ input, select, textarea {
 						border-left: 0;
 						margin-left: 0;
 						padding-left: 0;
+					}
+		
+					.labeled-icons{
+						list-style-type: none;
 					}
 
 /* Large */
