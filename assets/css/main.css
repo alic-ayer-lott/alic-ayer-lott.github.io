@@ -2911,7 +2911,7 @@ input, select, textarea {
 		min-height: 100vh;
 		padding: 0 0 12em 0;
 		position: relative;
-		text-align: center;
+		/* text-align: center; */
 	}
 
 		#footer .container {
